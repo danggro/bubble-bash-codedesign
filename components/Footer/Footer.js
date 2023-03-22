@@ -7,12 +7,12 @@ import FooterSosmed from "./FooterSosmed";
 
 export default function Footer() {
   return (
-    <footer className="pt-[130px] pb-16">
+    <footer className="xl:pt-[130px] pt-[80px] pb-16">
       <Container>
-        <div className="flex justify-between">
-          <div className="w-6/12 pr-16">
+        <div className="justify-between xl:flex">
+          <div className="pr-16 xl:w-6/12">
             <FooterLogo />
-            <p className="mt-4 mb-8 text-lg opacity-70">
+            <p className="mt-4 mb-4 text-lg xl:mb-8 opacity-70">
               Introducing, We are Bubble Bash digital agency company with more
               than 6 years of experience. We are committed to serve with all our
               heart
@@ -21,7 +21,7 @@ export default function Footer() {
               <FooterSosmed />
             </div>
           </div>
-          <div className="flex justify-between w-5/12">
+          <div className="justify-between w-5/12 mt-10 space-y-10 xl:space-y-10 xl:mt-0 xl:flex">
             <FooterPages />
             <FooterExplore />
             <FooterCompany />

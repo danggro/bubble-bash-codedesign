@@ -1,7 +1,7 @@
 export default function NavLogo() {
   return (
     <a href="#home">
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-2 origin-left scale-75 xl:scale-100">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="41"

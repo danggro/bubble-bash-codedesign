@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Bubble Bash</title>
       </Head>
-      <div className="w-screen pt-6 bg-green bg-hero">
+      <div className="w-screen xl:pt-6 bg-green bg-hero">
         <NavBar />
         <SectionHero />
       </div>

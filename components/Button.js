@@ -1,9 +1,9 @@
 export default function Button({ children }) {
   return (
-    <button className="border border-transparent hover:bg-green hover:border-white hover:text-white text-primary bg-white px-8 py-[23px] font-bold text-xl">
+    <button className="border border-transparent hover:bg-transparent hover:border-white hover:text-white text-primary bg-white xl:px-8 px-5 xl:py-[23px] py-[18px] font-bold xl:text-xl text-lg">
       <div className="flex items-center">
         {children}
-        <span className="ml-3">
+        <span className="ml-3 scale-90 xl:scale-100 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
