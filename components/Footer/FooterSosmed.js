@@ -16,21 +16,21 @@ export default function FooterSosmed() {
       </Link>
       <Link
         target="_blank"
-        href="http://www.facebook.com"
+        href="http://www.twitter.com"
         className="hover:text-green"
       >
         <Twitter />
       </Link>
       <Link
         target="_blank"
-        href="http://www.facebook.com"
+        href="http://www.instagram.com"
         className="hover:text-green"
       >
         <Instagram />
       </Link>
       <Link
         target="_blank"
-        href="http://www.facebook.com"
+        href="http://www.linkedin.com"
         className="hover:text-green"
       >
         <Linkedin />
