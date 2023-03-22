@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "../Container";
 import HeroItem from "./HeroItem";
 
-export default function () {
+export default function SectionHeroImage() {
   return (
     <div className=" -translate-y-[35%] -mb-[200px]">
       <Container>
